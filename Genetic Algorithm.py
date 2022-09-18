@@ -1,3 +1,11 @@
+#Implementation of modified Playfair cipher from:
+#A. Goel, A. V. Singh, and S. K. Khatri, “Modification of playfair 
+#algorithm using genetic algorithm,” in 2018 International Conference on 
+#Inventive Research in Computing Applications (ICIRCA). IEEE,
+#2018, pp. 72–75.
+algorithm using genetic algorithm,” in 2018 International Conference
+on Inventive Research in Computing Applications (ICIRCA). IEEE,
+2018, pp. 72–75.
 def remove_spaces(text):
     new_text = ""
     for c in text:
