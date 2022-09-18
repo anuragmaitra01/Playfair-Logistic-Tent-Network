@@ -1,2 +1,2 @@
-# Playfair Logistic-Tent Network
+# Playfair Logistic-Tent Network (PLT-Net)
 Implementation of an SP Network using a new modified Playfair Cipher for substitution and the chaotic Logistic-Tent Map for permutation, in Python. This new algorithm has been named Playfair Logistic-Tent Network (PLT-Net). This repository also includes a flowchart of the algorithm and implementations of the classical Playfair Cipher and two other modified Playfair Ciphers.
