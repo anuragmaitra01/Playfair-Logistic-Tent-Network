@@ -3,6 +3,7 @@ import random
 
 
 def digraph(text):
+    text = text.replace("\n", " ")
     digraph = []
     group = 0
     for i in range(2, len(text), 2):
