@@ -1,3 +1,9 @@
+#Implementation of modified Playfair cipher from:
+#M. Anshari, A. Mujahidah et al., “Expending technique cryptography for
+#plaintext messages by modifying playfair cipher algorithm with matrix
+#5 x 19,” in 2019 International Conference on Electrical Engineering
+#and Computer Science (ICECOS). IEEE, 2019, pp. 10–13.
+
 def remove_spaces(text):
     new_text = ""
     for c in text:
