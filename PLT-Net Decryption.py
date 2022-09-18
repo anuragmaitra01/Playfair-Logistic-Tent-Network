@@ -151,6 +151,8 @@ def decrypt_by_playfair_cipher(key, ciphertext):
     ciphertext=descramble_text(key, ciphertext)
 
     cipher_list = digraph(ciphertext)
+    if len(cipher_list[-1]) != 2:
+        cipher_list[-1] = cipher_list[-1] + '|'
     matrix1 = generate_key_table(key, list)
     matrix2 = scramble_key_table(key, len(cipher_list), matrix1)
     sequence = generate_sequence(key, len(cipher_list))
